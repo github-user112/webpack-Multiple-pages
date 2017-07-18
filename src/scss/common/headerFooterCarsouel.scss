@@ -1,0 +1,21 @@
+@import "variables";
+header{
+  .navgation{
+    background:$base_blue;
+  }
+  transform: translate(50px,50px);
+  display: flex;}
+footer{
+  background: $border_gray;
+  padding:30px 0 0 0;
+  .icon{
+    width:70px;
+    height:70px;
+    margin:10px;
+  }
+  .icp{
+    border-top: 1px solid #ddd;
+    height:60px;
+    line-height: 60px;
+  }
+}

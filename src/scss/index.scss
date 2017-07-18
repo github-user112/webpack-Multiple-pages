@@ -1,0 +1,114 @@
+@import "common/variables";
+@import "common/headerFooterCarsouel";
+.topborder{
+  border-top:1px solid $border_gray;
+}
+.navbar-brand{
+  padding:0;
+  overflow: hidden;
+}
+
+.carousel-indicators li,.carousel-indicators .active{
+  border-radius: 0;
+  border:0;
+  width:50px;
+  height:6px;
+  margin:0 15px;
+}
+.carousel-indicators .active{
+  background: rgb(233,51,80);
+}
+
+.welcome{
+  height:30px;
+  line-height: 30px;
+}
+/*learn*/
+.learn{
+  padding-bottom:30px;
+  background: gray;
+  .learn-chinese{
+    margin:30px 0 35px 0;
+  }
+  .learn-with{
+    margin:35px 0;
+  }
+}
+/*show*/
+.show{
+  padding:30px 0 10px 0;
+  .description{
+    padding:6px 0;
+  }
+  .toggle{
+    border:1px solid $border_gray;
+    b{
+      display: block;
+      font-size:16px;
+      padding-bottom:10px;
+    }
+    li{
+      padding:10px;
+      position: relative;
+      &:hover,&.active{
+        background: $base_blue;
+        color:#fff;
+      }
+      &:hover:after,&.active:after{
+        content:'';
+        width:0;
+        height:0;
+        border:8px solid transparent;
+        border-right-color:$base_blue;
+        position: absolute;
+        left:-16px;
+        top:50%;
+        margin-top:-8px;
+      }
+    }
+  }
+}
+.btn-me{
+  border:0;
+  outline: 0;
+  background: $base_blue;
+  font-size: 18px;
+  color:#fff;
+  border-radius: 5px;
+  padding:10px;
+}
+/*trial*/
+.trial{
+  background: gray;
+  padding-top:20px;
+  padding-bottom: 20px;
+  .title{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .small-title{
+    font-size: 22px;
+    color:#333;
+    margin:12px 0;
+  }
+
+}
+.form{
+  >div{
+    padding:5px 8px;
+    input{
+      border-radius: 5px !important;
+      height:45px !important;
+    }
+  }
+  .trial-bottom{
+    padding:0;
+    button{
+      width:80%;
+      margin-top:10px;
+    }
+  }
+}
+
+
+
