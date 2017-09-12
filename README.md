@@ -1,4 +1,4 @@
-# cli3   这是一个提示  我想看看冲突怎么解决
+·# cli3   这是一个提示 这是客户端的提示
 > A Vue.js project
 
 ## Build Setup
