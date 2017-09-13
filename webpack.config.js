@@ -86,6 +86,7 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true,
     hot: false,
+    port:3333
   },
   performance: {
     hints: false
